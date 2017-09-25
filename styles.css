@@ -1,0 +1,33 @@
+body{background-color:black;
+    color:white;
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 10px;
+    border-left:1px solid red;
+    box-sizing:border-box;
+}
+
+
+ul {
+    
+}
+
+li {
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    padding: 7px;
+    margin: 7px;
+    background-color: white;
+    color: olive;
+    text-decoration: none;
+    border-radius: 7px;
+}    
+
+nav li a:hove {
+    color: white;
+    background-color:olive:
+}    
