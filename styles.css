@@ -14,7 +14,13 @@ ul{
     
 }
 
+
+
 nav li{
+    display: inline-block;
+}
+
+obr {
     display: inline-block;
 }
 
