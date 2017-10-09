@@ -1,33 +1,74 @@
 body {
     background-color: maroon;
     color: white;
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 20px;
-    border-left: 4px solid lime;
 }
 
 ul {
     
 }
 
-nav li {
-    display: inline-block;
+nav {
+    position: absolute;
+    top: 0em;
+    border-top: white solid 4px;
+    border-bottom: white solid 2px;
+    width: 100%;
+    float: left;
+    background-color: black;
 }
 
-nav li a {
+nav ul {
+    padding:0px;
+    margin:0px;
+    width: 66%;
+    float: right;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+nav a {
+    color: white;
     display: block;
-    padding: 7px;
-    margin: 7px;
-    background-color: white;
-    color: olive;
-    text-decoration: none;
-    border-radius: 7px;
+    padding: 10px;
+    
     
 }
 
 nav li a:hover {
     color: white;
     background-color: olive;
+}
+
+header {
+    width: 100%;
+    float: left;
+    font-size: 120%;
+    color: white;
+    background-color: green;
+    margin-top: 1em;
+    height: 14em;
+    margin-bottom: 20px;
+}
+
+
+img {
+    width:450px;
+    height:400px;
+    position:relative;
+    left:35%;
+    
+}
+
+.nadpis {
+    text-align:center;
+}
+
+h1 {
+    font-family: 'Nosifer', cursive;
 }
