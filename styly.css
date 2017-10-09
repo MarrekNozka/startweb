@@ -5,8 +5,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
-    border-left: 100px solid rgb(10%,60%,40%);
+    border-left: 100px;
     box-sizing: border-box;
+}
+
+
+p  {
+    color: DimGray;
+    font-weight: bold
 }
 
 ul {
@@ -29,6 +35,5 @@ nav li a {
 
 nav li a:hover{
     color: red;
-    background-color: green;
+    background-color: grey;
 }
-    
