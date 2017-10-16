@@ -1,20 +1,28 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
   <head>
-
     <meta charset="utf-8">
-   
-		<link rel="stylesheet" href="Sstyles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Simon Hartmann" >
+    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="SSstyles.css">
+    <title>Doupě</title>
 
-    
-  
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="offcanvas.css" rel="stylesheet">
   </head>
+
   <body>
-  <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Dope Herní Doupě</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria controls="navbarsExampleDefault"aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button>   
+      </button>
 
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
@@ -22,7 +30,7 @@
             <a class="nav-link" href="#">Vstup<span class="sr-only"></span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://doupe.zive.cz/">Bombovej koutek</a>
+            <a class="nav-link" href="#">Link</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vybavení</a>
@@ -31,7 +39,6 @@
               <a class="dropdown-item" href="http://www.bigshock.cz/">Pití</a>
               <a class="dropdown-item" href="https://www.alza.cz/komponenty/18852654.htm">Komponenty</a>
               <a class="dropdown-item" href="https://www.g2a.com/?banner=weeklysale">Hry</a>
-              
               
             </div>
           </li>
@@ -48,24 +55,23 @@
       <div class="row row-offcanvas row-offcanvas-right">
 
         <div class="col-12 col-md-9">
-        
-          
-          
-          <div class="jumbotron">
+          <p class="float-right d-md-none">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+           <div class="jumbotron">
             <h1>ZDAREC!</h1>
             <p>Welcome in mojí Jeskyni.</p>
              <img src="https://i.ytimg.com/vi/bz-Hykv6X60/maxresdefault.jpg" alt="Obr">
           </div>
-          <div class="span">
+        
           
           
+          <div class="row">
             <div class="col-6 col-lg-4">
               <h2>Hry</h2>
               <p>Počítačová hra či zkráceně PC hra je druh hry zprostředkovaný interaktivním softwarem na různých elektronických platformách, například počítačích PC a Macintosh, na specializovaných herních konzolích, které jsou určeny téměř výhradně na hraní her a multimediální zábavu, či na mobilních telefonech. </p>
               <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-            </div> <!--/span-->
-            
-            
+            </div><!--/span-->
             <div class="col-6 col-lg-4">
               <h2>PC</h2>
               <p>Počítač je v informatice zařízení a výpočetní technika, která zpracovává data pomocí předem vytvořeného programu. Současný počítač je elektronický a skládá se z hardwaru, který představuje fyzické části počítače (mikroprocesor, klávesnice, monitor atd.) a ze softwaru (operační systém a programy).  </p>
@@ -80,6 +86,8 @@
             <a href="#" class="list-group-item">Link</a>
             <a href="#" class="list-group-item">Link</a>
             <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
+            <a href="#" class="list-group-item">Link</a>
 
           </div>
         </div><!--/span-->
@@ -88,21 +96,20 @@
       <hr>
 
       <footer>
-        <p>&copy; HOPE-ComP-DOPE 2017</p>
+        <p>&copy; HowFAR-Company 2017</p>
       </footer>
 
-    </div>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script src="offcanvas.js"></script>
   </body>
 </html>
