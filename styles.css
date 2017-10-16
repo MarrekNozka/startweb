@@ -11,7 +11,7 @@ ul {
 
 nav {
     position: absolute;
-    top: 0em;
+    top: 0px;
     border-top: white solid 4px;
     border-bottom: white solid 2px;
     width: 100%;
@@ -29,7 +29,13 @@ nav ul {
 
 nav li {
     display: inline-block;
-    
+}
+
+main {
+    margin-left:10%;
+    margin-right:10%;
+    position:relative;
+
 }
 
 nav a {
@@ -42,7 +48,7 @@ nav a {
 
 nav li a:hover {
     color: white;
-    background-color: olive;
+    background-color: blue;
 }
 
 header {
@@ -50,20 +56,12 @@ header {
     float: left;
     font-size: 120%;
     color: white;
-    background-color: green;
+    background-color: #d20000;
     margin-top: 1em;
     height: 14em;
     margin-bottom: 20px;
 }
 
-
-img {
-    width:450px;
-    height:400px;
-    position:relative;
-    left:35%;
-    
-}
 
 .nadpis {
     text-align:center;
@@ -71,4 +69,58 @@ img {
 
 h1 {
     font-family: 'Nosifer', cursive;
+    text-align:center;
+}
+
+
+.koncobrazek {
+    width:450px;
+    height:400px;
+    position:relative;
+    left:30%;    
+}
+.konobrazek {
+    width:450px;
+    height:300px;
+    position:relative;
+    left:30%;    
+}
+
+.brazek {
+    top: 20px;
+    left: 28%;
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    background-image: url("https://d30y9cdsu7xlg0.cloudfront.net/png/642568-200.png");
+}
+
+footer {
+    position: relative;
+    background: #d20000;
+    padding: 160px 0px 75px;
+    margin-top: 40px;
+}
+
+
+footer p {
+    position:relative;
+    top:-65px;
+    margin-left:20px;
+    padding:8px;
+    border-radius: 10px;
+    float: left;
+    background-color: #E900EF;
+    border: 3px solid black;
+}
+
+footer aside {
+    position:relative;
+    top:-50px;
+    margin-right:20px;
+    float: right;
+    background-color: #E900EF;
+    border-radius: 10px;
+    padding: 8px;
+    border: 3px solid black;
 }
