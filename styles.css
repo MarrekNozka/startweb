@@ -4,13 +4,14 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 0px;
+    padding-right: 0px;
     font-family: courier new;
 }
 
 header {
     background-color: rgb(103, 141, 106);
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
 }
 
@@ -19,7 +20,7 @@ h1 {
 }
 
 nav {
-    padding-right: 10px;
+    padding: 10px;
     margin-right: 10px;
     width: 100%;
     box-sizing: border-box;
@@ -70,24 +71,95 @@ main {
 }
 
 dt {
-    padding-bottom: 20px;
+    padding: 20px;
+    font-size: 200%;
 }
 
 dd {
     padding: 10px;
 }
 
+
 #vk1 {
     padding-left: 20%;
 }
 
 #vk2 {
-    padding-left: 50%;
+    padding-left: 30%;
 }
 
 #vk3 {
-    padding-left: 35%;
+    padding-left: 40%;
+}
+
+/*.obrazky li {
+    border: solid #32632a 2px;
+    height: 230px;
+    padding: 125px 10px 5px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    list-style-type: none;
+}
+
+.obrazky li.jedna {
+    width: 29%;
+    float: left;
+    margin-right: 2%;
+}
+
+.obrazky li.dva {
+    width: 29%;
+    float: left;
+    margin-right: 2%;
+}
+
+.obrazky li.tri {
+    width: 29%;
+    float: left;
+    margin-right: 2%;
+}
+*/
+li.obr {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 2%;
+    width: 30%;
+}
+
+li.obr img {
+    width:100%;
 }
 
 
+#responsive-image {
+    margin: 0%;
+    padding: 0%;
+}
 
+ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+footer {
+    position: relative;
+    padding: 60px 0px 45px;
+    margin-top: 10px;
+    background:green;
+    margin-top:20%;
+    text-align:center;
+}
+
+footer .popelka {
+    top: -380px;
+    left: 38%;
+    width: 50%;
+    height: 380px;
+    position: absolute;
+    background-image: url(http://www.receptyonline.cz/wp-content/uploads/2013/01/132757slehackova-babovka1_2-200x200.jpg);
+    background-repeat: no-repeat;
+    background-position: 10% 80%;
+
+}
