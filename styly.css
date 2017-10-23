@@ -1,0 +1,233 @@
+
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif&subset=latin,latin-ext);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic&subset=latin,latin-ext);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+body {
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lora", Georgia, "DejaVu Serif", serif;
+  line-height: normal; }
+
+article p, article ul, article ol {
+  margin: 1em; }
+article ul > li {
+  list-style-type: square;
+  margin-left: 6.77966%; }
+article ol > li {
+  list-style-type: lower-roman;
+  margin-left: 6.77966%; }
+
+header {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  font-family: "Bree serif", Georgia, "Times New Roman", "DejaVu Serif", serif;
+  font-size: 110%;
+  color: white;
+  background-color: #55AA55;
+  margin-top: 2em;
+  height: 20em;
+  background-image: url("engine.png");
+  background-repeat: no-repeat;
+  background-position: 88% 68%;
+  margin-bottom: 40px; }
+  header nav {
+    position: fixed;
+    top: 0em;
+    z-index: 100;
+    border-top: #55AA55 solid 4px;
+    border-bottom: white solid 2px;
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    min-height: 2em;
+    background-color: #EF6C00; }
+    header nav h1, header nav ul, header nav li {
+      display: inline-block; }
+    header nav h1 {
+      font-size: 110%;
+      padding-left: 5em;
+      width: 23.72881%;
+      float: left;
+      margin-right: 1.69492%;
+      padding: 10px; }
+    header nav ul {
+      width: 66.10169%;
+      float: right;
+      margin-right: 0;
+      text-align: right; }
+    header nav a {
+      color: white;
+      display: block;
+      padding: 10px; }
+    header nav li:hover {
+      background-color: #55AA55; }
+  header dl {
+    width: 91.52542%;
+    float: left;
+    margin-right: 1.69492%;
+    position: relative;
+    top: 4em;
+    left: 1em;
+    z-index: 0; }
+    header dl dt {
+      font-size: 200%; }
+    header dl dd {
+      padding: 10px; }
+    header dl dd#vk1 {
+      padding-left: 8.40336%; }
+    header dl dd#vk2 {
+      padding-left: 12.60504%; }
+    header dl dd#vk3 {
+      padding-left: 4.20168%; }
+
+.crew li {
+  border: solid #55AA55 2px;
+  border-top: solid #55AA55 0px;
+  height: 250px;
+  padding: 130px 10px 5px;
+  background-repeat: no-repeat;
+  background-position: top center; }
+.crew li.r1 {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  background-image: url("commander.png"); }
+.crew li.r2 {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  background-image: url("click.png"); }
+.crew li.r3 {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+  background-image: url("note.png"); }
+.crew li.r4 {
+  width: 23.72881%;
+  float: right;
+  margin-right: 0;
+  background-image: url("beri.png"); }
+
+footer {
+  position: relative;
+  background: navy;
+  padding: 30px 0px 80px;
+  margin-top: 300px;
+  margin-bottom: 6em; }
+  footer aside {
+    margin-top: 0px;
+    width: 40.67797%;
+    float: right;
+    margin-right: 0;
+    background-color: navy;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    color: red;
+    border: 7px solid black;
+    padding: 10px; }
+    footer aside a {
+      color: red;
+      display: block; }
+    footer aside a:hover {
+      background-color: pink; }
+    footer aside ul {
+      padding-left: 30px; }
+      footer aside ul li {
+        list-style-type: square; }
+  footer p {
+    margin-top: -55px;
+    padding: 8px;
+    width: 15.25424%;
+    float: left;
+    margin-right: 1.69492%;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    background-color: navy;
+    color: white;
+    border: 4px solid black; }
+  footer logo {
+    top: 100px;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    background-image: url("mass-effect-logo.jpg");
+    background-repeat: no-repeat;
+    background-position: 10% 80%; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bree serif", Georgia, "Times New Roman", "DejaVu Serif", serif;
+  font-weight: bold; }
+
+h1 {
+  font-size: 2.6em; }
+
+h2 {
+  font-size: 2.1em; }
+
+h3 {
+  font-size: 1.7em; }
+
+h4 {
+  font-size: 1.3em; }
+
+h5 {
+  font-size: 1.15em; }
+
+h6 {
+  font-size: 1em; }
