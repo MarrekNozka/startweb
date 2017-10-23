@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Simon Hartmann" >
+    <link rel="icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="SSstyles.css">
+    <title>Doupě</title>
+
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384- PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="offcanvas.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Dope Herní Doupě</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Vstup<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Vybavení</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="https://www.damejidlo.cz/">Jídlo</a>
+              <a class="dropdown-item" href="http://www.bigshock.cz/">Pití</a>
+              <a class="dropdown-item" href="https://www.alza.cz/komponenty/18852654.htm">Komponenty</a>
+              <a class="dropdown-item" href="https://www.g2a.com/?banner=weeklysale">Hry</a>
+              
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Hledej</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-12 col-md-9">
+          <p class="float-right d-md-none">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+           <div class="jumbotron">
+            <h1>ZDAREC!</h1>
+            <p>Welcome in mojí Jeskyni.</p>
+             <img src="https://i.ytimg.com/vi/bz-Hykv6X60/maxresdefault.jpg" alt="Obr">
+          </div>
+        
+          
+          
+          <div class="row">
+            <div class="col-6 col-lg-4">
+              <h2>Hry</h2>
+              <p>Počítačová hra či zkráceně PC hra je druh hry zprostředkovaný interaktivním softwarem na různých elektronických platformách, například počítačích PC a Macintosh, na specializovaných herních konzolích, které jsou určeny téměř výhradně na hraní her a multimediální zábavu, či na mobilních telefonech. </p>
+              <p><a class="btn btn-secondary" href="https://cs.wikipedia.org/wiki/Po%C4%8D%C3%ADta%C4%8Dov%C3%A1_hra" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="col-6 col-lg-4">
+              <h2>PC</h2>
+              <p>Počítač je v informatice zařízení a výpočetní technika, která zpracovává data pomocí předem vytvořeného programu. Současný počítač je elektronický a skládá se z hardwaru, který představuje fyzické části počítače (mikroprocesor, klávesnice, monitor atd.) a ze softwaru (operační systém a programy).  </p>
+              <p><a class="btn btn-secondary" href="https://cs.wikipedia.org/wiki/Po%C4%8D%C3%ADta%C4%8D" role="button">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+
+        <div class="col-6 col-md-3 sidebar-offcanvas" id="sidebar">
+          <div class="list-group">
+            <a href="https://9gag.com/" class="list-group-item active">9Gag</a>
+            <a href="http://mamut.spseol.cz/" class="list-group-item">Mamut</a>
+            <a href="https://www.ebay.com/" class="list-group-item">Ebay</a>
+            <a href="https://www.razerzone.com/" class="list-group-item">Razer</a>
+          
+
+          </div>
+        </div><!--/span-->
+      </div><!--/row-->
+
+      <hr>
+
+      <footer>
+        <p>&copy; HowFAR-Company 2017</p>
+      </footer>
+
+    </div><!--/.container-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
