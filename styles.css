@@ -54,6 +54,7 @@ nav li a{
     background-color:white;
     text-decoration: none;
     border-radius: 7px;
+    font-family: 'Indie Flower', cursive;
     
 }    
 
@@ -64,7 +65,7 @@ nav li a:hover {
 
 main {
     text-align:center;
-    
+    font-family: 'Merriweather', serif;
     
 }
 
@@ -84,19 +85,22 @@ img {
 h1 {
     color: black;
     
+    
 }
 
 h2 {
-    font-family: 'Indie Flower', cursive;
+    
     text-align:center;
     color: red;
     font-size:500%;
+    font-family: 'Righteous', cursive;
 }
 
 h5 {
     color: #007fff;
     text-align:center;
     font-size:150%;
+    font-family: 'Righteous', cursive;
 }
 
 
@@ -137,6 +141,7 @@ footer {
     background:#98a29d;
     margin-top:20%;
     text-align:center;
+    font-family: 'Indie Flower', cursive;
 }
 
 footer .Lukasek {
@@ -148,6 +153,7 @@ footer .Lukasek {
     background-image: url(http://program.autiste.cz/images/aplikace/doprava/letecka/350x350/vrtulnik.png);
     background-repeat: no-repeat;
     background-position: 10% 80%;
+    
 }
 
 h7{
